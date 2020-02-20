@@ -69,7 +69,6 @@ def RandomKrit(df):
 
 def main():
     data = collectDataTest()
-    #data = collectData()
     print(data)
     resultMaximax = Maximax(data)
     print('resultMaximax\n', resultMaximax)
@@ -83,5 +82,6 @@ def main():
     print('resultGurvits\n', resultGurvits)
     resultRandomKrit = RandomKrit(data)
     print('resultRandomKrit\n', resultRandomKrit)
+
 
 main()
