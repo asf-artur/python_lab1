@@ -31,3 +31,4 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+/__pycache__/zagruzka.cpython-37.pyc
